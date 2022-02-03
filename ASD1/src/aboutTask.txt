@@ -1,0 +1,5 @@
+For a sequence of natural numbers given at the input, the program is to find the longest monotonic substring and return its length and the sum of its elements.
+Entry:
+A sequence of natural numbers at least 1 long, in the form of numbers separated by a space.
+Exit:
+Length and sum of the elements of the longest monotone sequence, in the form of two numbers separated by a space.

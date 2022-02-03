@@ -1,0 +1,9 @@
+The data is a binary tree labeled with the letters of the English alphabet. A word in this tree is defined as a sequence of vertex labels on the way from the leaf to the root. Find and list the last of these words alphabetically.
+Entry:
+A string of lines that describe the vertices. Each line describes one vertex and looks like this: X Y where:
+X - vertex label
+Y - a sequence of letters L (left) and R (right) specifying the path from the root to the vertex
+Example:
+B LLR - means that the vertex to which we get from the root to the left (L), left (L) and right (R) is labeled B.
+Exit:
+A string of letters that forms the last word alphabetically among all the words in the tree.

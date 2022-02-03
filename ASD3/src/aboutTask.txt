@@ -1,0 +1,10 @@
+The sequence of natural numbers is given, as well as the index P, which initially points to the first element in the sequence. Two operations are defined for this string:
+ADD - adds an element with the value X-1 to position P + 1, and then moves the index P by X elements to the right, where X is the value of the element located at position P.
+DELETE - deletes the item at position P + 1, then moves the P pointer X items to the right, where X is the value of the deleted item.
+When the pointer P points to the odd element, the ADD operation is performed, otherwise, the DELETE operation is performed.
+The P pointer is shifted to the right in a cyclical manner, so the first element is the element next to the last element.
+Determine the sequence of natural numbers after k operations on the input string.
+Entry:
+Two lines, the first of which contains the number of operations (k), and the second an initial sequence of n natural numbers, in which subsequent elements are separated by a space character.
+Exit:
+A sequence of natural numbers creating a solution of the problem, in which successive elements are separated by a space, written in a cyclical manner, starting from the element indicated by the indicator P.

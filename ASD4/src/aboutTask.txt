@@ -1,0 +1,10 @@
+A string of lines is given representing the number of occurrences of the letters of the English alphabet. Find a set of optimal prefix codes to encode these letters.
+Entry:
+A sequence of lines of the character A B, where A is the letter of the English alphabet and B is the number of its occurrences, e.g. A 23
+C5
+B 32
+Exit:
+A sequence of lines of the form A B, where A is a coded letter and B is its code, e.g. A 01
+B 00
+C1
+The order of the lines to be printed is arbitrary.
